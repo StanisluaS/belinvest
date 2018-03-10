@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Книга заслуженных работников</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<html>
+  <body>
+
+    <div class="main">
+	<ul class="main-nav left">
+	<li><a href="#">А</a></li>
+	<li><a href="#">Б</a></li>
+	<li><a href="#">В</a></li>
+	<li><a href="#">Г</a></li>
+	<li><a href="#">Д</a></li>
+	<li><a href="#">Е</a></li>
+	<li><a href="#">Ж</a></li>
+	<li><a href="#">З</a></li>
+	<li><a href="#">И</a></li>
+	<li><a href="#">К</a></li>
+	<li><a href="#">Л</a></li>
+	<li><a href="#">М</a></li>
+	<li><a href="#">Н</a></li>
+	<li><a href="#">О</a></li>
+	</ul>
+
+	<ul class="main-nav right">
+	<li><a href="#">П</a></li>
+	<li><a href="#">Р</a></li>
+	<li><a href="#">С</a></li>
+	<li><a href="#">Т</a></li>
+	<li><a href="#">У</a></li>
+	<li><a href="#">Ф</a></li>
+	<li><a href="#">Х</a></li>
+	<li><a href="#">Ц</a></li>
+	<li><a href="#">Ч</a></li>
+	<li><a href="#">Ш</a></li>
+	<li><a href="#">Щ</a></li>
+	<li><a href="#">Э</a></li>
+	<li><a href="#">Ю</a></li>
+	<li><a href="#">Я</a></li>
+	</ul>
+
+		</div>
+
+    <div class="page-find hidden">
+
+  <div class="searchbox">
+    <p>Поиск</p>
+    <div class="find">
+      <input type="text" name="q" placeholder="Введите фамилию" class="searchbox-text" autocomplete="off"/>
+      <input type="submit" class="searchbox-button" />
+    </div>
+</div>
+<div class="go-main-page">
+    <img src="image/BIB_arrow_left.png" class="bib-main-page"/>
+    <span>На главную страницу</span>
+</div>
+
+<div class="list">
+  <p>Результаты поиска:</p>
+  <div class="list-collaborators">
+    <div class="collaborators">
+    </div>
+  </div>
+</div>
+
+		</div>
+
+    <div class="information hidden">
+	<ul class="main-nav left">
+	<li><a href="#">А</a></li>
+	<li><a href="#">Б</a></li>
+	<li><a href="#">В</a></li>
+	<li><a href="#">Г</a></li>
+	<li><a href="#">Д</a></li>
+	<li><a href="#">Е</a></li>
+	<li><a href="#">Ж</a></li>
+	<li><a href="#">З</a></li>
+	<li><a href="#">И</a></li>
+	<li><a href="#">К</a></li>
+	<li><a href="#">Л</a></li>
+	<li><a href="#">М</a></li>
+	<li><a href="#">Н</a></li>
+	<li><a href="#">О</a></li>
+	</ul>
+
+	<ul class="main-nav right">
+	<li><a href="#">П</a></li>
+	<li><a href="#">Р</a></li>
+	<li><a href="#">С</a></li>
+	<li><a href="#">Т</a></li>
+	<li><a href="#">У</a></li>
+	<li><a href="#">Ф</a></li>
+	<li><a href="#">Х</a></li>
+	<li><a href="#">Ц</a></li>
+	<li><a href="#">Ч</a></li>
+	<li><a href="#">Ш</a></li>
+	<li><a href="#">Щ</a></li>
+	<li><a href="#">Э</a></li>
+	<li><a href="#">Ю</a></li>
+	<li><a href="#">Я</a></li>
+	</ul>
+
+  <div class="photo hidden">
+  </div>
+
+  <div class="text">
+    <h2 class="surname"></h2>
+    <div class="name-patronymic">
+      <h2 class="name"></h2>
+      <h2 class="patronymic"></h2>
+  </div>
+  <div class="text-p">
+    <p>
+</p>
+</div>
+  </div>
+
+		</div>
+
+    <template id="collaborator-template" style="display: none">
+      <div class="collaborator"></div>
+    </template>
+
+        <script src="./js/data.js"></script>
+        <script src="./js/list.js"></script>
+        <script src="./js/find.js"></script>
+        <script src="./js/preview.js"></script>
+        <script src="./js/open.js"></script>
+
+  </body>
+</html>

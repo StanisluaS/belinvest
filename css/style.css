@@ -1,0 +1,270 @@
+body {
+	width: 1366px;
+	margin: 0 auto;
+    padding: 0;
+    font-family: "Verdana", sans-serif;
+    color: #000000;
+    background-color: white;
+}
+
+p,
+h2 {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+		margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+input[type=text]::-ms-clear {
+	display: none; width : 0; height: 0;
+}
+input[type=text]::-ms-reveal {
+	display: none; width : 0; height: 0;
+ }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+	 display: none;
+  }
+
+	input {
+		outline:none;
+	}
+
+.main {
+	position: relative;
+	height: 768px;
+	background: url("../image/background_Main_vet__1366_768.jpg") center no-repeat;
+}
+
+.main-nav,
+.collaborators {
+	margin: 0;
+	padding: 0;
+  list-style: none;
+}
+
+.information li,
+.main li {
+	width: 38px;
+	height: 37px;
+	background: url("../image/vet__1366_768_button_alphabet.png") center no-repeat;
+	padding: 5px 0;
+	}
+
+.information li:first-child,
+.main li:first-child {
+	padding: 0;
+	}
+
+.information .right,
+.main .right {
+	position: absolute;
+	right: 30px;
+	top: 75px;
+}
+
+.information .left,
+.main .left {
+	position: absolute;
+	left: 32px;
+	top: 75px;
+	}
+
+.information .main-nav a,
+.main .main-nav a {
+	line-height: 37px;
+	font-size: 26.75px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.page-find {
+	position: relative;
+	height: 768px;
+	background: url("../image/Background_vet_2_1366_768-18.jpg") center no-repeat;
+}
+
+.searchbox {
+	position: absolute;
+	top: 107px;
+	left: 83px;
+}
+
+.searchbox p,
+.list p{
+	font-size: 41.32px;
+	color: #008264;
+	font-weight: bold;
+}
+
+.find {
+	height: 54px;
+	width: 562px;
+	margin: 0;
+	margin-top: 66px;
+	box-sizing: border-box;
+	background-color: transparent;
+	background-image: url("../image/vet__1366_768_search-19.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.searchbox-text {
+	display: block;
+	position: absolute;
+	left: 0;
+	font-family: "Verdana", sans-serif;
+	font-size: 23.43px;
+	color: #1a1a1a;
+	line-height: normal;
+	padding: 0;
+	padding-right: 8px;
+	margin-left: 25px;
+	height: 54px;
+	width: 485px;
+	background-color: transparent;
+	border: none;
+}
+
+.searchbox-button {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 8px;
+	padding: 0;
+	height: 54px;
+	width: 36px;
+	cursor: pointer;
+	font-size: 0px;
+	box-sizing: border-box;
+	border: none;
+	background-color: transparent;
+	background-image: url("../image/vet__1366_768_search_icon-20.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.go-main-page {
+	position: absolute;
+	top: 643px;
+	left: 83px;
+}
+
+.bib-main-page {
+	float: left;
+	width: 55px;
+	height: 55px;
+  cursor: pointer;
+}
+
+.go-main-page span {
+	font-size: 23.43px;
+	color: #008264;
+	margin-left: 22px;
+	line-height: 55px;
+	cursor: pointer;
+}
+
+.list {
+	position: absolute;
+	left: 790px;
+	top: 107px;
+}
+
+.list-collaborators {
+	margin: 0;
+	margin-top: 57px;
+	overflow: auto;
+	height: 332px;
+	}
+
+	.collaborators {
+		max-width: 530px;
+	}
+
+	.list-collaborators span {
+		font-size: 31px;
+	}
+
+.collaborator {
+	font-size: 31px;
+	margin-top: 5px;
+	cursor: pointer;
+	color: #000000;
+	padding: 0;
+	padding-right: 39px;
+	background-image: url("../image/vet__1366_768_arrow.png");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.collaborator:first-child {
+	margin-top: 0;
+}
+
+.information {
+	position: relative;
+	height: 768px;
+	background: url("../image/BIB_Vet_3_str_1920_1080.jpg") center no-repeat;
+	}
+
+.photo {
+	position: absolute;
+	left: 314px;
+	top: 280px;
+	width: 171px;
+	height: 229px;
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.text {
+	position: absolute;
+	top: 238px;
+	left: 697px;
+	width: 566px;
+}
+
+.text h2 {
+	font-size: 22.96px;
+	font-weight: normal;
+	color: #0d0300;
+}
+
+.text .surname {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.text .name-patronymic {
+	text-align: center;
+}
+
+.text .name,
+.text .patronymic {
+	display: inline-block;
+	text-transform:capitalize;
+}
+
+.text .text-p {
+	font-size: 13.33px;
+	color: #0d0300;
+	margin: 0 auto;
+	margin-top: 24px;
+	padding: 0;
+	width: 491px;
+	height: 223px;
+	text-indent: 18.52px;
+	text-align: justify;
+}
